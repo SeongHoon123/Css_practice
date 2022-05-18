@@ -1,0 +1,48 @@
+<style>
+  body{
+    margin:0;
+  }
+  a{
+    color:black;
+    text-decoration:none;
+  }
+  h1 {
+    font-size:60px;
+    text-align: center;
+    border-bottom:10px solid pink;
+    margin:0;
+    padding:20px;
+  }
+  h2{
+
+    font-size: 50px;
+    margin:0;
+  }
+
+  #grid ol{
+    border-right: 10px solid pink;
+    margin:0;
+    width:150px;
+    padding-left: 50px;
+  }
+  #grid {
+    display:grid;
+    grid-template-columns: 200px 1fr;
+  }
+  #article{
+    padding-left: 25px;
+  }
+  @media(max-width:800px) {
+    h1 {
+        border-bottom:none;
+
+    }
+    #grid ol {
+        border-right:none;
+    }
+    #grid{
+        display:block;
+
+    }
+  }
+</style>
